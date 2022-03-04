@@ -1,7 +1,6 @@
-public class PrimerPrograma 
-	public static void main{string[] arg){
-		factorial casio = new Factorial();
-		System.out.println(casio.calcularRecursivo(5));
+public class PrimerPrograma{
+	public static void main(String[] arg){
+		Factor kasio = new Factor();
+		System.out.println(kasio.calcularRecursivo(5));
 	}
-
 }
