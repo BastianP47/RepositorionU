@@ -1,10 +1,11 @@
 public class Factor{
 	
-	public int calcularRecursivo(int x){
-		if(x>1){
-			return x*calcularRecursivo(x-1);
-		}else{
+	public int calcularFibonacci(int x){
+		if (x>2){
+			return calcularFibonacci(x-2)+calcularFibonacci(x-1) ;
+		}else if (x==2){
 			return 1;
-		}
+		}else 
+	        	return 0;
 	}
 }
